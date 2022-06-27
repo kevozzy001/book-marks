@@ -76,8 +76,6 @@ cancelbtn.addEventListener('click', function(){
 })
 
 confirmBtn.addEventListener('click', function(){
-    modal.style.display = 'none';
-    document.getElementById("overlay").style.display = "none";
     addBookToLibrary();
 })
 
